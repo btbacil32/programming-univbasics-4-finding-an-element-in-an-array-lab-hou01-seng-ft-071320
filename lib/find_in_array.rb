@@ -1,5 +1,5 @@
 def find_element_index(scale, value_to_find)
-  value_to_find = 4
+  value_to_find = 2
   count = 0
   find_value_index = nil
   while count < scale.length do
