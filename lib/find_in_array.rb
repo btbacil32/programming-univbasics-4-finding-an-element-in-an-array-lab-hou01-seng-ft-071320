@@ -1,7 +1,6 @@
 def find_element_index(scale, value_to_find)
-  value_to_find = 2
   count = 0
-  find_value_index = nil
+  find_value_index = 2
   while count < scale.length do
     if scale[count] == value_to_find
       find_value_index = count
