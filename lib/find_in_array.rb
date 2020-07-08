@@ -4,6 +4,7 @@ def find_element_index(scale, value_to_find)
   while count < scale.length do
     if scale[count] == value_to_find
       find_value_index = count
+      elsif return "nil"
     end
     count += 1
   end
